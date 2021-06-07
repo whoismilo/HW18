@@ -57,26 +57,30 @@ color: rgb(1, 28, 68);
 
 .aboutContainer{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
 }
 
-.about {
+.about{
 display: block;
 justify-content: center;
-margin: 50px 50px 0px 60px;
-padding: 60px;
+margin: 50px 200px 0px 60px;
 }
 
 .myphoto{
-  padding: 20px;
-  margin: 20px;
-  width: 200%;
+  display: flex;
+  justify-content: left;
+  min-width: 400px;
+  max-height: auto;
 }
 
-.skills a{
-  display: flex;
-  justify-content: center;
+.myphoto img{
+  min-width: 70%;
+}
+
+.skills{
+  text-align: center;
+  padding: 0px 40px 0px 40px;
 }
 
 .leftFoot a{
